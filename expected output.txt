@@ -1,0 +1,11 @@
+When everything is correct:
+On starting the simulation:
+All traffic lights should be RED (via allRed() in setup())
+No buzzer sounds
+Then each direction gets GREEN → YELLOW → RED in sequence
+If you press the pedestrian button:
+Pedestrian green LED turns on
+Buzzer beeps for a few seconds
+If you press the emergency button:
+Direction A immediately turns GREEN
+Buzzer sounds at higher pitch
